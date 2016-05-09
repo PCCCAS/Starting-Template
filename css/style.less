@@ -1,0 +1,54 @@
+@import 'palette.less';
+@import 'fonts.less';
+@import 'mixinlibrary.less';
+
+// MOBILE STYLESHEET
+
+body {
+    background-color: @lightColor;
+    color: @darkColor;
+    font-family: @normalFont;
+    font-size: 16px;
+}
+
+header {
+    padding: 2em;
+    h1 {
+        .headingFont(2em; @darkColor);
+    }
+}
+
+main {
+    padding: 2em;
+    h2 {
+        .headingFont(1.5em; @darkColor);
+    }
+    h3 {
+        .headingFont(1.25em; @darkColor);
+    }
+    p, ul {
+        .textFormatting(1em);
+    }
+}
+
+footer {
+    padding: 2em;
+    h2 {
+        .headingFont(1em; @darkColor);
+    }
+    p, ul {
+        .textFormatting(.85em);
+    }
+}
+
+// TABLET STYLESHEET
+
+@media screen and (min-width: 481px) {
+    
+}
+
+// DESKTOP STYLESHEET
+
+@media screen and (min-width: 1025px) {
+    
+}
