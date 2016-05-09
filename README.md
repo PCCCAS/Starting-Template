@@ -1,5 +1,5 @@
 # Welcome
-## This is a sample template file for web design projects. 
+## This is a sample template file for web design projects.
 
 If you are at the point where you can use **git clone** to download files, you deserve to use this amazing shortcut file repo.
 

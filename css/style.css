@@ -8,11 +8,30 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+nav {
+  padding: 1em;
+}
+nav a {
+  color: #000000;
+}
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  line-height: 1.5em;
+  text-align: center;
+}
 header {
+  color: #ffffff;
+  background-color: #031634;
   padding: 2em;
 }
 header h1 {
-  color: #000000;
+  color: #ffffff;
   font-size: 2em;
   font-weight: bold;
   line-height: 3em;
@@ -44,11 +63,22 @@ main ul {
   line-height: 1.5em;
   margin: 0 0 1.5em 0;
 }
+main a {
+  color: #036564;
+}
+main ul {
+  margin-left: 2em;
+}
+main ul li {
+  list-style-type: disc;
+}
 footer {
+  color: #e8ddcb;
+  background-color: #033649;
   padding: 2em;
 }
 footer h2 {
-  color: #000000;
+  color: #e8ddcb;
   font-size: 1em;
   font-weight: bold;
   line-height: 1.5em;
@@ -60,4 +90,16 @@ footer ul {
   font-size: 0.85em;
   line-height: 1.275em;
   margin: 0 0 1.275em 0;
+}
+footer ul {
+  margin-left: 2em;
+}
+footer ul li {
+  list-style-type: disc;
+}
+@media screen and (min-width: 481px) {
+  nav ul li {
+    display: inline-block;
+    margin-right: 2em;
+  }
 }
