@@ -14,3 +14,4 @@ If you are at the point where you can use **git clone** to download files, you d
 * Eric Meyer's amazing reset.css file: http://meyerweb.com/eric/tools/css/reset/
 * Modified 12 column grid from Graham Miller: http://www.responsivegridsystem.com/ 
 * The folks at JQuery: http://jquery.com
+* Free CC0 license images from http://pexels.com
