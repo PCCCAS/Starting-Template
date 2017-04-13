@@ -1,16 +1,30 @@
 // out: null
 
-.headingFont(@fontSize, @fontColor) {
-    color: @fontColor;
-    font-size: @fontSize;
-    font-weight: bold;
-    line-height: @fontSize * 1.5;
-    margin: 0 0 @fontSize * .5 0;
+.headerFontAttributes(@fontColor; @fontSize) {
+    color: @fontColor; // this uses our font color
+    font-size: @fontSize; // this uses our font size
+    margin: 0 0 @fontSize * .25 0;
+    line-height: @fontSize * 1;
     text-transform: uppercase;
 }
 
-.textFormatting(@fontSize) {
+.textProperties(@fontSize) {
     font-size: @fontSize;
     line-height: @fontSize * 1.5;
-    margin: 0 0 @fontSize * 1.5 0;
+    margin: 0 0 @fontSize 0;
+}
+
+.transition(@time) {
+    -webkit-transition: all @time ease-in-out;
+    -moz-transition: all @time ease-in-out;
+    -o-transition: all @time ease-in-out;
+    transition: all @time ease-in-out;
+}
+
+.standOutWithBlur(@blur; @color) {
+    text-shadow: 0 0 @blur 0 fadeout(@color, 0.36);
+}
+
+.pop() {
+    transform: scale(1.25);
 }
