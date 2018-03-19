@@ -5,6 +5,16 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
+header {
+  background-image: url(../images/pexels-photo-92078.jpeg);
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+  padding: 3em;
+}
+header h1 {
+  font-size: 3em;
+}
 main {
   padding: 1em;
 }
